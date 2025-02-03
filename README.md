@@ -9,7 +9,7 @@ This project is designed as a debugging exercise for beginners who have just sta
 - Improve problem-solving skills in web development
 
 ## Instructions
-1. Open the `debugging_html.html` file in a text editor or an online HTML validator.
+1. Open the `debugging.html` file in a text editor or an online HTML validator.
 2. Carefully examine the code and identify errors.
 3. Fix the errors one by one, ensuring the document follows proper HTML standards.
 4. Open the file in a web browser to check if it displays correctly.

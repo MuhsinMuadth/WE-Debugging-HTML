@@ -1,104 +1,94 @@
 <!-- Welcome to the HTML Debugging Exercise! 
-     This file contains various intentional errors that you need to fix.
-     Read the comments carefully for hints about what might be wrong! -->
+    This file contains various intentional errors that you need to fix.
+    Read the comments carefully for hints about what might be wrong! 
+    NOTE: Not all Errors have detailed hints, you may use Google to help you with any HTML tags you haven't come across yet and how they should be structured -->
 
-     <!doctype htlm>  <!-- Error 1: Incorrect DOCTYPE declaration -->
-     <html>
-     <header>  <!-- Error 2: Wrong tag for head section -->
-         <title>My First Website - Debug Practice</title>
-         <meta charset="UTF-8"
-         <!-- Error 3: Missing closing angle bracket above -->
-         
-         <!-- Error 4: No opening style tag -->
-         body {
-             background-color: lightblue;
-             font-family: Arial, sans-serif;
-         }
-         </style>
-     </header>  <!-- Error 5: Should be </head> -->
-     
-     <body>
-         <h1>Welcome to My Website!</h1>
-         <!-- Error 6: Unclosed paragraph tag -->
-         <p>This is a practice website for learning HTML debugging.
-         
-         <h2>About Me</h2>
-         <!-- Error 7: Incorrect nesting of elements -->
-         <p><strong>I love coding and <learning HTML!</p></strong>
-         
-         <!-- Error 8: List with incorrect structure -->
-         <h3>My Favorite Foods:<h3>
-         <ul>
-             <li>Pizza
-             <li>Sushi</l1>  <!-- Error 9: Incorrect closing tag -->
-             <li>Ice Cream<li>  <!-- Error 10: Wrong closing tag -->
-         </ul>
-         
-         <!-- Error 11: Image tag missing required attribute -->
-         <img src="profile-pic.jpg">
-         
-         <!-- Error 12: Link with syntax errors -->
-         <a href"https://www.example.com" target="_blank">Visit my favorite website!</a>
-         
-         <div class="contact-form"  <!-- Error 13: Missing closing angle bracket -->
-             <h2>Contact Me!</h2>
-             <!-- Error 14: Form with various errors -->
-             <form action="/submit" method="post">
-                 <label for="name">Name:</label>
-                 <input type="text" id="name">  <!-- Error 15: Missing name attribute -->
-                 
-                 <br><br>
-                 
-                 <!-- Error 16: Select element with structural errors -->
-                 <label for="topic">Choose a topic:</label
-                 <select id="topic" name="topic">
-                     <option value="general">General Question</option>
-                     <option value="feedback">Feedback</option>
-                     <option value="other">Other<option>  <!-- Error 17: Incorrect closing -->
-                 </select>
-                 
-                 <!-- Error 18: Textarea with missing attributes -->
-                 <textarea>Your message here...</textarea>
-                 
-                 <!-- Error 19: Button outside form -->
-             </form>
-             <button type="submit">Send Message</button>
-         </div>
-         
-         <!-- Error 20: Table with structure errors -->
-         <h3>My Schedule</h2>  <!-- Error 21: Mismatched heading tags -->
-         <table border="1">
-             <tr>
-                 <th>Day</td>  <!-- Error 22: Wrong closing tag -->
-                 <th>Activity</th>
-             <tr>  <!-- Error 23: Missing closing tag for previous row -->
-             <tr>
-                 <td>Monday</td>
-                 <td>Coding Practice</td>
-             </tr>
-             <tr>
-                 <td>Tuesday
-                 <td>HTML Study</td>  <!-- Error 24: Inconsistent td closing -->
-             </tr>
-         </table>
-         
-         <!-- Error 25: Incorrect footer structure -->
-         <footer>
-             <p>Copyright 2024
-             <p>Email: contact@example.com</p>
-         </footer>
-     
-     </body>
-     
-     <!-- Error 26: Missing closing html tag -->
-     
-     <!-- 
-     Congratulations on reaching the end! Here's a summary of what you should look for:
-     1. Check all opening and closing tags
-     2. Ensure proper nesting of elements
-     3. Look for missing attributes
-     4. Verify correct tag names
-     5. Check for proper document structure
-     6. Ensure all sections are properly closed
-     
-     Good luck with your debugging! -->
+<!DOCTYPE htlm>  <!-- Error 1 -->
+<html>
+<header>  <!-- Error 2: Wrong tag for this section -->
+    <title>My First Website - Debug Practice</title>
+    <meta charset="UTF-8"
+    <!-- Error 3: Missing closing angle bracket above -->
+    
+    <!-- Error 4: No opening tag but there is the closing tag below... -->
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</header>  <!-- Error 5: Related to Error 2 -->
+
+<body>
+    <h1>Welcome to My Website!</h1>
+    <!-- Error 6-->
+    <p>This is a practice website for learning HTML debugging.
+    
+    <h2>About Me</h2>
+    <!-- Error 7 -->
+    <p><strong>I love coding and <learning HTML!</p></strong>
+    
+    <!-- Error 8: List with incorrect structure -->
+    <h3>My Favorite Foods:<h3>
+    <ul>
+        <li>Pizza
+        <li>Sushi</l1>  <!-- Error 9 -->
+        <li>Ice Cream<li>  <!-- Error 10 -->
+    </ul>
+    
+    <!-- Error 11: Missing something -->
+    <img src="profile-pic.jpg">
+    
+    <!-- Error 12: Error related to the way the href is written... -->
+    <a href"https://www.example.com" target="_blank">Visit my favorite website!</a>
+    
+    <div class="contact-form"  <!-- Error 13 -->
+        <h2>Contact Me!</h2>
+        <!-- Error 14: Form with various errors -->
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name">  <!-- Error 15: Missing something -->
+            
+            <br><br>
+            
+            <!-- Error 16: One of these tags is structured wrong... -->
+            <label for="topic">Choose a topic:</label
+            <select id="topic" name="topic">
+                <option value="general">General Question</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other<option>  <!-- Error 17 -->
+            </select>
+            
+            <!-- Error 18: Missing something -->
+            <textarea>Your message here...</textarea>
+            
+            <!-- Error 19: Is the button inside or outside the form? -->
+        </form>
+        <button type="submit">Send Message</button>
+    </div>
+    
+    <!-- Error 20: Table has some structural errors -->
+    <h3>My Schedule</h2>  <!-- Error 21 -->
+    <table border="1">
+        <tr>
+            <th>Day</td>  <!-- Error 22 -->
+            <th>Activity</th>
+        <tr>  <!-- Error 23: Missing something... -->
+        <tr>
+            <td>Monday</td>
+            <td>Coding Practice</td>
+        </tr>
+        <tr>
+            <td>Tuesday
+            <td>HTML Study</td>  <!-- Error 24 -->
+        </tr>
+    </table>
+    
+    <!-- Error 25: Is the footer structure correct? -->
+    <footer>
+        <p>Copyright 2024
+        <p>Email: contact@example.com</p>
+    </footer>
+
+</body>
+
+<!-- Error 26: Missing a closing tag... -->
